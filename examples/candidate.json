@@ -1,0 +1,15 @@
+{
+  "students": [
+    {"id": "s1", "preferences": ["p1", "p2"]},
+    {"id": "s2", "preferences": ["p1", "p2"]},
+    {"id": "s3", "preferences": ["p2"]}
+  ],
+  "projects": [
+    {"id": "p1", "capacity": 1, "preferences": ["s2", "s1", "s3"]},
+    {"id": "p2", "capacity": 1, "preferences": ["s1", "s3"]}
+  ],
+  "assignments": [
+    {"student": "s2", "project": "p1"},
+    {"student": "s1", "project": "p2"}
+  ]
+}
